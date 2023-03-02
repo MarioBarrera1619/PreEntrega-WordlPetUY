@@ -14,42 +14,90 @@
 </head>
 <body>
     <header>
-        <a href=""><img src="img/logo.png" alt="Logo de la empresa"></a>
-        <h2>World Pet Uy</h2>
-        <nav>
-            <ul class="nav__list">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-                <li><a href="pages/productos.html">Productos</a></li>
-                <li><a href="pages/servicios.html">Servicioss</a></li>
-                <li><a href="pages/sobreNosotros.html">Sobre Nosotros</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="row">
+                <a href="/img/logo.png" class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="pages/servicios.html">Servicioss</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="pages/sobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <main>
-        <h1>Titulo principal</h1>
-        <!-- comentario shift alt a -->
-        <section id="seccion-principal">
-            <article>
-                <h2>subtitulos</h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ipsum laudantium facilis pariatur magni voluptas?
-                </p>
-            </article>
-            <div>
-                <img src="img/perros.jpeg" alt="imagen perros">
+    <main id="grilla">
+        <section id="productos">
+            <div class="container-fluid">
+                <h2 class="text-center">Nuestros Productos</h2>
+                <div class="row mt-3 m-0 justify-content-center">
+                    <img src="img/perros.jpeg" alt="imagen perros">
+                </div>
+                <div class="row mt-3 m-0 justify-content-center">
+                    <img src="img/Racion1.jfif" alt="Racion1">
+                </div>
+                <div class="row mt-3 m-0 justify-content-center">
+                    <img src="img/mascotas-copy-0.gif" alt="mascotas-copy-0">
+                </div>
+                <div class="row mt-3 m-0 justify-content-center">
+                    <img src="img/racion5.webp" alt="racion5">
+                </div>
             </div>
         </section>
-        <footer>
-            <div>
-                <h3>Contactenos</h3>
+        <section id="marcas" class="section2">
+            <h3>Raciones y productos de oferta</h3>
+            <div class="section_boxprod">
+                <img src="img/mascotas.gif" alt="mascotas">
             </div>
-            <div>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <div class="section_boxprod">
+                <img src="img/mascotas.gif" alt="mascotas">
             </div>
-        </footer>
+            <div class="section_boxprod">
+                <img src="img/mascotas.gif" alt="mascotas">
+            </div>
+        </section>
+    </main>
+    <!-- Comienzo del Footer -->
+    <footer class="footer">
+        <div class="footer sm">
+            <div class="container">
+                <div class="footer--sm__icons">
+                    <div class="row">
+                        <div>
+                            <h3>Contactenos a través de nuestras redes</h3>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer--bottom">
+            <div class="container">
+                <div class="footer--bottom__creador">
+                    <p>Creada por Mario Barrera</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     </main>
 </body>
 </html>
